@@ -1,0 +1,30 @@
+.agents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search input {
+  outline: none;
+  padding: 14px 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.search .join {
+  padding: 14px 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

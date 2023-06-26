@@ -1,0 +1,71 @@
+.agent-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 2s all ease-in-out;
+  z-index: 1;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-details {
+  background-color: red;
+  display: flex;
+}
+
+.back-button {
+  padding: 14px 30px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border: 1.5px solid gray;
+  background-color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+.add-review {
+  padding: 14px 30px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border: 1.5px solid gray;
+  background-color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  margin: 2rem;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(79, 82, 177, 0.35);
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 359px;
+  margin-bottom: 112px;
+}
+
+.review-input {
+  font-weight: 600;
+}
+
+.rating-label {
+  font-weight: bold;
+}
+
+.comment-label {
+  font-weight: bold;
+}
